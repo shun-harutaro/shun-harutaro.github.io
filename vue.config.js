@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/project-name/',
+  publicPath: '/',
   outputDir: 'docs',
     configureWebpack: {
       performance: {
