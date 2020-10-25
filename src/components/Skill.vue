@@ -40,7 +40,7 @@
       </div>
     </div>
     <div class="tool clear">
-      <div>Firebase/GCP---Firestore,Function,hosting</div>
+      <div>Firebase/GCP---Firestore,Function,hosting/Heroku</div>
     </div>
   </div>
 </template>
@@ -51,10 +51,10 @@
   display: block;
   border: solid 1px;
   border-radius: 15px;
-  width: 50px;
-  margin: auto;
+  width: 60px;
+  margin: 2px auto;
   text-align: center;
-  line-height: 20px;
+  line-height: 15px;
   font-size: 10px;
 }
 #skill .icon{
@@ -62,22 +62,35 @@
   width: 50px;
 }
 #skill{
-  padding: 50px;
   display: inline-block;
 }
 #skill .lang{
-  float: left;
-  margin: 30px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
   width: 70px;
   padding: 4px;
   text-align: center;
 }
-.clear {
-  clear: both;
-}
 @media screen and (min-width: 768px) {
   #skill .lang {
-    margin: 40px;
+    margin: 10px 40px;
+    padding: 10px;
+    width: 100px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .flont{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .back {
+    display: inline-block;
+    vertical-align: top;
+  }
+  #skill .lang {
+    margin: 10px 40px;
     padding: 10px;
     width: 100px;
     font-size: 16px;

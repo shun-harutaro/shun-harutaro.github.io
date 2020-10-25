@@ -11,8 +11,12 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  margin: 50px;
 }
 ul {
   list-style: none;
+}
+.clear {
+  clear: both;
 }
 </style>
