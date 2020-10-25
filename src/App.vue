@@ -11,7 +11,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin: 50px;
+  margin: 0px 50px 50px;
 }
 ul {
   list-style: none;
